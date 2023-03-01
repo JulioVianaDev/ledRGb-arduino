@@ -1,13 +1,18 @@
+#define vermelho 3
+#define verde 5
+#define azul 6
+
 void setup() {
   // put your setup code here, to run once:
-  pinMode(6,INPUT);
-  pinMode(9,INPUT);
-  pinMode(10,INPUT);
+  pinMode(vermelho,INPUT);
+  pinMode(verde,INPUT);
+  pinMode(azul,INPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  analogWrite(6,0);
-  analogWrite(9,0);
-  analogWrite(10,0);
+  // enquanto menor o numero da potencia mais da cor vai ter
+  // é o contrario de sites, o valor: 0,0,0 significa branco( ou seja tudo no maximo)
+  analogWrite(vermelho,0);
+  analogWrite(verde,0);
+  analogWrite(azul,0);
 }
