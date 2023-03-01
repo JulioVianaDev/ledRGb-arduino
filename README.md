@@ -1,3 +1,3 @@
 # ledRGb-arduino
 
-<img src="./ledrb.png"/>
+<img src="./ledrgb.png"/>
